@@ -21,7 +21,7 @@ class Clock {
 		min = this._appendZero(min);
 
 		// 24-hour mode
-		if (this._twentyFourMode === true) {
+		if (this._twentyFourMode == true) {
 			hour = this._appendZero(hour);
 			this._clock.innerText = `${hour}:${min}`;
 			return;
