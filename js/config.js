@@ -111,18 +111,6 @@ class Config {
 		// A list of websites that will be generated and put on the web menu
 		const webSites = [
 			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/',
-				category: 'social'
-			},
-			{
-				site: 'Github',
-				icon: 'github',
-				url: 'https://github.com/',
-				category: 'development'
-			},
-			{
 				site: 'Gmail',
 				icon: 'gmail',
 				url: 'https://mail.google.com/',
@@ -135,9 +123,45 @@ class Config {
 				category: 'mail'
 			},
 			{
+				site: 'Reddit',
+				icon: 'reddit',
+				url: 'https://reddit.com/',
+				category: 'social'
+			},
+			{
+				site: 'VK',
+				icon: 'vk',
+				url: 'https://vk.com/feed',
+				category: 'social'
+			},
+			{
+				site: 'Telegram',
+				icon: 'telegram',
+				url: 'https://web.telegram.org/k/',
+				category: 'social'
+			},
+			{
+				site: 'Whatsapp',
+				icon: 'whatsapp',
+				url: 'https://web.whatsapp.com/',
+				category: 'social'
+			},
+			{
+				site: 'Discord',
+				icon: 'discord',
+				url: 'https://discord.com/',
+				category: 'social'
+			},
+			{
 				site: 'Youtube',
 				icon: 'youtube',
 				url: 'https://youtube.com/',
+				category: 'media'
+			},
+			{
+				site: 'Twitch',
+				icon: 'twitch',
+				url: 'https://twitch.tv/',
 				category: 'media'
 			},
 			{
@@ -147,34 +171,22 @@ class Config {
 				category: 'cloud'
 			},
 			{
+				site: 'Github',
+				icon: 'github',
+				url: 'https://github.com/',
+				category: 'development'
+			},
+			{
 				site: 'Gitlab',
 				icon: 'gitlab',
 				url: 'https://gitlab.com/',
 				category: 'development'
 			},
 			{
-				site: 'Deviantart',
-				icon: 'deviantart',
-				url: 'https://deviantart.com/',
-				category: 'design'
-			},
-			{
-				site: 'Twitch',
-				icon: 'twitch',
-				url: 'https://twitch.tv/',
-				category: 'media'
-			},
-			{
-				site: 'Yahoo',
-				icon: 'yahoo',
-				url: 'https://mail.yahoo.com/',
-				category: 'search engine'
-			},
-			{
-				site: 'Discord',
-				icon: 'discord',
-				url: 'https://discord.com/',
-				category: 'social'
+				site: 'Stackoverflow',
+				icon: 'stackoverflow',
+				url: 'https://stackoverflow.com/',
+				category: 'development'
 			},
 			{
 				site: 'Figma',
@@ -183,10 +195,28 @@ class Config {
 				category: 'design'
 			},
 			{
-				site: 'Stackoverflow',
-				icon: 'stackoverflow',
-				url: 'https://stackoverflow.com/',
-				category: 'development'
+				site: 'Itil',
+				icon: 'itil',
+				url: 'https://www.itil.su/index.php?page=app&tab=app&app_id=51585',
+				category: 'work'
+			},
+			{
+				site: 'Docs SP',
+				icon: 'docssp',
+				url: 'https://docs.sp.pp.ru/Auth.aspx?refererurl=https%3a%2f%2fdocs.sp.pp.ru%2fProducts%2fFiles%2fDefault.aspx',
+				category: 'work'
+			},
+			{
+				site: 'Cloud SP',
+				icon: 'cloudsp',
+				url: 'https://cloud.sp.pp.ru/apps/files/?dir=/&fileid=5461260',
+				category: 'work'
+			},
+			{
+				site: 'Mail SP',
+				icon: 'mailsp',
+				url: 'http://relay.sib-paritet.ru/?_task=mail&_mbox=INBOX',
+				category: 'work'
 			},
 		];
 
@@ -198,45 +228,26 @@ class Config {
 		// A list of websites that will be generated and put on the Panel
 		const panelSites = [
 			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/'
-			},
-			{
-				site: 'Github',
-				icon: 'github',
-				url: 'https://github.com/'
-			},
-			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/'
-			},
-			{
-				site: 'Gmail',
-				icon: 'gmail',
-				url: 'https://mail.google.com/'
+				site: 'VK',
+				icon: 'vk',
+				url: 'https://vk.com/feed',
 			},
 			{
 				site: 'Youtube',
 				icon: 'youtube',
-				url: 'https://youtube.com/'
+				url: 'https://youtube.com/',
+				category: 'media'
 			},
 			{
-				site: 'GDrive',
-				icon: 'gdrive',
-				url: 'https://drive.google.com/'
+				site: 'Telegram',
+				icon: 'telegram',
+				url: 'https://web.telegram.org/k/',
 			},
 			{
-				site: 'Twitter',
-				icon: 'twitter',
-				url: 'https://twitter.com/'
+				site: 'Whatsapp',
+				icon: 'whatsapp',
+				url: 'https://web.whatsapp.com/',
 			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
-			}
 		];
 
 		return panelSites;
