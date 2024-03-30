@@ -3,7 +3,7 @@ class Clock {
 		this._localStorage = window.localStorage;
 		this._clock = document.querySelector('#clock');
 		this._setTime = this._setTime.bind(this);
-		this._twentyFourMode = false;
+		this._twentyFourMode = true;
 		this._clockUpdater = null;
 		this._init();
 	}
