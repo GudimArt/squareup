@@ -26,6 +26,7 @@
 
 .panel-button-image {
 	background-size: cover;
+	background-size: 100% 100%;
 }
 
 /* Panel Link - a href */
