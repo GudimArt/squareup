@@ -69,7 +69,7 @@ select:focus {
 /* Placeholder */
 ::placeholder {
 	color: var(--font-color);
-	opacity: 0.65;
+	opacity: 1;
 }
 
 option {
