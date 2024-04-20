@@ -9,8 +9,8 @@
 	--active-bg: var(--base-accent);
 	--button-hover: var(--hover-bg);
 	--button-active: var(--active-bg);
-	--gradient-start-bg: #4568dc;
-	--gradient-end-bg: #b06ab3;
+	--gradient-start-bg: #3E5151;
+	--gradient-end-bg: #DECBA4;
 	--transition-speed: 300ms;
 	--image-invert: invert(0);
 }
