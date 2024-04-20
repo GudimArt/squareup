@@ -1,5 +1,6 @@
 /* Panel Button */
 .panel-button {
+	background-size: 100% 100%;
 	background: transparent;
 	width: 48px;
 	height: 48px;
